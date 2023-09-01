@@ -70,7 +70,7 @@ function App() {
       </Navbar>
       <Suspense fallback={<div>로딩중임</div>}>
         <Routes>
-          <Route index path='/' element={
+          <Route index path='/react-shoeshop' element={
             <>
               <div className='main-bg'></div>
               <div className='container'>
@@ -96,12 +96,12 @@ function App() {
                 }}>더보기</button>
             </>
           } />
-            <Route path='/detail/:id' element={
-                <context.Provider value={{shoes, temp}}>
-                  <Detail shoes={shoes} /> 
-                </context.Provider>
-              }
-            />
+          <Route path='/detail/:id' element={
+              <context.Provider value={{shoes, temp}}>
+                <Detail shoes={shoes} /> 
+              </context.Provider>
+            }
+          />
           <Route path='/cart' element={<Cart />} />
           <Route path='/about' element={<About />}>
             <Route path="member" element={<div>어바웃에 멤버페이지임</div>} />

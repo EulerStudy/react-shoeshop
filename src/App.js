@@ -40,9 +40,9 @@ function App() {
   */
 
   useEffect(() => {
-    const data = JSON.parse(localStorage.getItem('watched'))
-    if (data.length === 0)
-      localStorage.setItem('watched', JSON.stringify([]))
+    // const data = JSON.parse(localStorage.getItem('watched'))
+    // if (data.length === 0)
+    localStorage.setItem('watched', JSON.stringify([]))
   },[])
 
   return (

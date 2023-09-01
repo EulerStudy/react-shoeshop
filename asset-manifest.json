@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-shoeshop/static/css/main.f20b21c8.css",
+    "main.js": "/react-shoeshop/static/js/main.84c2b637.js",
+    "static/js/962.22efb75b.chunk.js": "/react-shoeshop/static/js/962.22efb75b.chunk.js",
+    "static/js/183.b2527419.chunk.js": "/react-shoeshop/static/js/183.b2527419.chunk.js",
+    "static/js/787.7dd837e6.chunk.js": "/react-shoeshop/static/js/787.7dd837e6.chunk.js",
+    "static/js/333.fc860d7a.chunk.js": "/react-shoeshop/static/js/333.fc860d7a.chunk.js",
+    "static/media/bg.png": "/react-shoeshop/static/media/bg.616f307c169b743ff920.png",
+    "index.html": "/react-shoeshop/index.html",
+    "main.f20b21c8.css.map": "/react-shoeshop/static/css/main.f20b21c8.css.map",
+    "main.84c2b637.js.map": "/react-shoeshop/static/js/main.84c2b637.js.map",
+    "962.22efb75b.chunk.js.map": "/react-shoeshop/static/js/962.22efb75b.chunk.js.map",
+    "183.b2527419.chunk.js.map": "/react-shoeshop/static/js/183.b2527419.chunk.js.map",
+    "787.7dd837e6.chunk.js.map": "/react-shoeshop/static/js/787.7dd837e6.chunk.js.map",
+    "333.fc860d7a.chunk.js.map": "/react-shoeshop/static/js/333.fc860d7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f20b21c8.css",
+    "static/js/main.84c2b637.js"
+  ]
+}

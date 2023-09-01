@@ -54,7 +54,7 @@ function App() {
         })}} />                    
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">ShoeShop</Navbar.Brand>
+          <Navbar.Brand href="#">ShoeShop</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={() => { navigate('/') }}>Home</Nav.Link>
             <Nav.Link onClick={() => { navigate('/detail/0') }}>Detail</Nav.Link>
@@ -70,7 +70,7 @@ function App() {
       </Navbar>
       <Suspense fallback={<div>로딩중임</div>}>
         <Routes>
-          <Route path='/' element={
+          <Route index path='/' element={
             <>
               <div className='main-bg'></div>
               <div className='container'>
